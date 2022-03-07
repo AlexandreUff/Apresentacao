@@ -1,5 +1,5 @@
 import React from "react";
-import { IcoBS, IcoCSS, IcoHTML, IcoJS, IcoRc, IcoSS } from "../items/Icones";
+import { IcoBS, IcoCSS, IcoHTML, IcoJS, IcoNx, IcoRc, IcoSS } from "../items/Icones";
 import Projeto from "../items/Projeto";
 
 export default function Main(){
@@ -10,12 +10,12 @@ export default function Main(){
                 <p><b>Seja bem-vindo(a) à minha página de apresentação de projetos.</b></p>
               <br />
                 <p className="devDesc">Sou Alexandre Magno, tenho 28 anos e sou formado em Tecnologia da Computação pela universidade Federal Fluminense (UFF). Tenho conhecimentos de HTML, CSS, Javascript, Bootstrap, SASS/SCSS, Next/React, um básico de Figma e de Typescript e, atualmente, estou estudando VueJS.
-                Logo abaixo, segue meu portfólio disponível que também está disponível em minha conta no GitHub. Este portfólio é construído de forma diversificada com relação às tecnologias de meu conhecimento visando sempre respeitar a responsividade, a semântica, as regras de SEO, as boas práticas, a acessibilidade, o desempenho e entre outros quesitos mínimos funcionais e necessários de uma página.
+                Logo abaixo, segue meu portfólio que também está disponível em minha conta no GitHub. Este portfólio é construído de forma diversificada com relação às tecnologias de meu conhecimento visando sempre respeitar a responsividade, a semântica, as regras de SEO, as boas práticas, a acessibilidade, o desempenho e entre outros quesitos mínimos funcionais e necessários de uma página.
                 </p>
                 <details>
                     <summary>Clique aqui para saber um pouco mais sobre mim</summary>
                     <p>Sou Alexandre Magno, tenho 28 anos e sou formado em Tecnologia da Computação pela universidade Federal Fluminense (UFF). Tenho conhecimentos de HTML, CSS, Javascript, Bootstrap, SASS/SCSS, Next/React, um básico de Figma e de Typescript e, atualmente, estou estudando VueJS.
-                        Logo abaixo, segue meu portfólio disponível que também está disponível em minha conta no GitHub. Este portfólio é construído de forma diversificada com relação às tecnologias de meu conhecimento visando sempre respeitar a responsividade, a semântica, as regras de SEO, as boas práticas, a acessibilidade, o desempenho e entre outros quesitos mínimos funcionais e necessários de uma página.
+                        Logo abaixo, segue meu portfólio que também está disponível em minha conta no GitHub. Este portfólio é construído de forma diversificada com relação às tecnologias de meu conhecimento visando sempre respeitar a responsividade, a semântica, as regras de SEO, as boas práticas, a acessibilidade, o desempenho e entre outros quesitos mínimos funcionais e necessários de uma página.
                     </p>
                 </details>
             </div>
@@ -36,8 +36,12 @@ export default function Main(){
                 <IcoHTML/><IcoCSS/><IcoJS/><IcoRc/>
             </Projeto>
 
-            <Projeto nome="SummerHouse Hotel" img="p5" desc="Simulação de uma página de login de um hotel com a opção de registrar-se. A página utiliza os recursos de layout do Bootstrap para uma melhor organização e, também, na página de registro, um formulário organizado em um 'slider' que possui um bloqueio um pouco mais rígido que o da Landing Page do Master Churras acima, bloqueando o registro para menore de 18 anos até a data presente do acesso e, também, senhas inválidas. " link="https://dazzling-agnesi-eae7f9.netlify.app/" repos="https://github.com/AlexandreUff/SummerHouse">
+            <Projeto nome="SummerHouse Hotel" img="p5" desc="Simulação de uma página de login de um hotel com a opção de registrar-se. A página utiliza os recursos de layout do Bootstrap para uma melhor organização e, também, na página de registro, um formulário organizado em um 'slider' que possui um bloqueio um pouco mais rígido que o da Landing Page do Master Churras acima, bloqueando o registro para menores de 18 anos até a data presente do acesso e, também, senhas inválidas. " link="https://dazzling-agnesi-eae7f9.netlify.app/" repos="https://github.com/AlexandreUff/SummerHouse">
                 <IcoHTML/><IcoCSS/><IcoJS/><IcoBS/><IcoSS/>
+            </Projeto>
+
+            <Projeto nome="Ultra Eletro" img="p6" desc="A Hiper Eletro agora tem um concorrente! Meu primeiro projeto em NextJs e também, agora, com uma pequena API. Trata-se de uma página de simulação de um e-commerce onde, dessa vez, você pode clicar nos produtos e ver os detalhes e outras informações adicionais. Os 'cards' que exibem os produtos são rederizados com base em dados obtidos a partir de uma requisição ao back-end e, quando o 'card' é clicado, os mesmos dados são transferidos pela barra de endereços usando o useRouter e depois renderizados na página de compra." link="https://ultra-eletro.vercel.app/" repos="https://github.com/AlexandreUff/UltraEletro">
+                <IcoHTML/><IcoCSS/><IcoJS/><IcoRc/><IcoNx/>
             </Projeto>
         </main>
     )
