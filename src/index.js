@@ -28,4 +28,4 @@ console.log(
   `
 );
 
-console.log('Alteração feita s/ build realizada com sucesso.');
+console.log('Padrao de projeto alterado.');

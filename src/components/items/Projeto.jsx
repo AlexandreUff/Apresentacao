@@ -11,14 +11,14 @@ export default function Projeto(props){
             </div>
         </a>
             <p className="desc">
-                {props.desc}
+                {props.children}
             </p>
             <p className="obs"><small>Obs: No Console do Navegador são exibidas informações mais detalhadas.</small></p>
         <hr />
             <div className="tecnologias">
                 <p>Tecnologias usadas neste projeto:</p>
                 <div>
-                    {props.children}
+                    {props.techs}
                 </div>
             </div>
         <hr />
