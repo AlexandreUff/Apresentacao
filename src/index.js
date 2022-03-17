@@ -26,4 +26,6 @@ console.log(
   - SCSS;
   - ReactJs.
   `
-)
+);
+
+console.log('Alteração feita s/ build realizada com sucesso.');
