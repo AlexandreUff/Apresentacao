@@ -16,8 +16,8 @@ export default function Footer(){
             </div>
             <div>
                 <small>
-                &copy; 2022 - Alexandre Magno Dias <br />
-                alexandre_magno@id.uff.br.
+                &copy; 2022 - Alexandre Magno Dias. <br />
+                alexandre_magno@id.uff.br
                 </small>
             </div>
         </footer>

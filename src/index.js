@@ -27,5 +27,3 @@ console.log(
   - ReactJs.
   `
 );
-
-console.log('Padrao de projeto alterado.');
