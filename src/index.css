@@ -26,9 +26,10 @@ code {
 header {
   border-bottom: 20px solid #DADBBD;
   background-image: url("../public/images/fundo1.jpg");
-  background-size: 100%;
+  background-size: 50%;
+  background-position: left;
   height: 200px;
-  box-shadow: 0px 30px 25px #00000080;
+  box-shadow: 0px 30px 25px rgba(0, 0, 0, 0.5019607843);
 }
 header img {
   position: relative;
@@ -38,7 +39,7 @@ header img {
   height: 270px;
   border-radius: 50%;
   border: 15px solid #DADBBD;
-  box-shadow: 0px 25px 25px #00000080;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.5019607843);
 }
 header h1 {
   margin-top: 25px;
@@ -48,6 +49,11 @@ header h1 {
   font-size: 8.6rem;
   font-family: "League Gothic", sans-serif;
   margin-left: 50px;
+}
+
+.bg-image-effect {
+  transition: 30s;
+  background-position: right;
 }
 
 main {
@@ -65,7 +71,7 @@ main .card-show {
   color: #DADBBD;
   border-top: 3px solid #DADBBD;
   border-bottom: 3px solid #DADBBD;
-  box-shadow: 8px 8px 10px #00000080;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5019607843);
 }
 main .card-show details {
   display: none;
@@ -77,7 +83,7 @@ main .projeto {
   margin: 20px auto;
   padding: 10px;
   border-radius: 8px;
-  box-shadow: 8px 8px 10px #00000080;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5019607843);
 }
 main .projeto a {
   text-decoration: none;
@@ -168,6 +174,9 @@ footer a:hover svg {
 
 /* Responsividade */
 @media (max-width: 1355px) {
+  header {
+    background-size: 100%;
+  }
   header h1 {
     font-size: 6rem;
     margin-top: 97px;
