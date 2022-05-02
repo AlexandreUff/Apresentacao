@@ -26,8 +26,8 @@ code {
 header {
   border-bottom: 20px solid #DADBBD;
   background-image: url("../public/images/fundo1.jpg");
-  background-size: 50%;
-  background-position: left;
+  background-size: 2500px;
+  background-position: center;
   height: 200px;
   box-shadow: 0px 30px 25px rgba(0, 0, 0, 0.5019607843);
 }
@@ -52,8 +52,8 @@ header h1 {
 }
 
 .bg-image-effect {
-  transition: 30s;
-  background-position: right;
+  transition: 20s;
+  background-size: 700px;
 }
 
 main {
@@ -175,7 +175,7 @@ footer a:hover svg {
 /* Responsividade */
 @media (max-width: 1355px) {
   header {
-    background-size: 100%;
+    /* background-size: 100%; */
   }
   header h1 {
     font-size: 6rem;
@@ -228,6 +228,9 @@ footer a:hover svg {
   }
 }
 @media (max-width: 475px) {
+  header {
+    /* background-size: 300%; */
+  }
   header h1 {
     font-size: 5.5rem;
   }
