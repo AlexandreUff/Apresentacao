@@ -198,6 +198,17 @@ footer{
   align-items: center;
   text-align: center;
 
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        margin: 0 20px;
+      }
+    }
+  }
+
   svg{
     width: 50px;
     cursor: pointer;
