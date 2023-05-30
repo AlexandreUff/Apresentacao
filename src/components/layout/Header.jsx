@@ -8,7 +8,7 @@ export default function Header(){
         console.log(Header);
     }
 
-    setInterval(()=>{
+    setTimeout(()=>{
         effectBg();
     },1)
 
