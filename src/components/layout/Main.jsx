@@ -74,6 +74,16 @@ export default function Main(){
             é clicado, os mesmos dados são transferidos pela barra de endereços usando o 
             useRouter e depois renderizados na página de compra.   
             </Projeto>
+
+            <Projeto nome="My ToDo List" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<IcoSS/>]} img="p7" link="https://my-todo-list-vibbra.netlify.app/" repos="https://github.com/AlexandreUff/MyToDoList">
+            Eis um dos projetos que ficou com um dos layouts mais simples, bonitos e agradáveis que fiz.
+            O clássico ToDo List, mas de um jeito bem diferente! Esse explora uma maneira diferenciada
+            de organização que é um tanto incomum com relação à maioria dos ToDo Lists que existem por aí.
+            Aqui você cria um conjunto de listas onde você separa cada tarefa por contexto de modo
+            facilitado para sua organização e pode marcar suas tarefas como concluídas e, se preferir,
+            editá-las e/ou apagá-las. Seus dados e informações ficam gravadas na SessionStorage
+            do dispositivo.
+            </Projeto>
         </main>
     )
 }
