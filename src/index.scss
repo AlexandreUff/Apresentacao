@@ -135,8 +135,12 @@ main{
       width: 19%;
     }
 
-    .desc,.obs{
+    .desc,.obs,.link{
       color: $main-color
+    }
+
+    .link {
+      margin: 10px;
     }
 
     .desc {

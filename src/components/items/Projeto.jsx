@@ -13,6 +13,11 @@ export default function Projeto(props){
             <p className="desc">
                 {props.children}
             </p>
+            <p className="link">
+                <strong>Link para acessar o projeto: <br />
+                    <a href={props.link} title={`Link para acessar o ${props.nome}.`}>{props.link}</a>
+                </strong>
+            </p>
             <p className="obs"><small>Obs: No Console do Navegador são exibidas informações mais detalhadas.</small></p>
         <hr />
             <div className="tecnologias">
