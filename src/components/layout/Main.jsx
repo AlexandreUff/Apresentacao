@@ -75,7 +75,7 @@ export default function Main(){
             useRouter e depois renderizados na página de compra.   
             </Projeto>
 
-            <Projeto nome="My ToDo List" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<IcoSS/>]} img="p7" link="https://my-todo-list-vibbra.netlify.app/" repos="https://github.com/AlexandreUff/MyToDoList">
+            <Projeto nome="My ToDo List" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<IcoSS/>]} img="p7" link="https://this-is-my-todolist.netlify.app/" repos="https://github.com/AlexandreUff/MyToDoList">
             Eis um dos projetos que ficou com um dos layouts mais simples, bonitos e agradáveis que fiz.
             O clássico ToDo List, mas de um jeito bem diferente! Este explora uma maneira diferenciada
             de organização que é um tanto incomum com relação à maioria dos ToDo Lists que existem por aí.
