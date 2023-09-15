@@ -135,6 +135,7 @@ main .projeto .tecnologias p {
 main .projeto .tecnologias div {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 main .projeto .tecnologias div img {
   width: 50px;

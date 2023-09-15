@@ -27,8 +27,8 @@ export default function Projeto(props){
                 </div>
             </div>
         <hr />
-            <div className="github" title={`Clique aqui para acessar o repositório de ${props.nome}.`}>
-                <a href={props.repos} target="blank" >
+            <div className="github" >
+                <a href={props.repos} target="blank" title={`Clique aqui para acessar o repositório de ${props.nome}.`} >
                     <IcoGH/><small>Clique aqui para acessar o repositório.</small>
                 </a>
             </div>

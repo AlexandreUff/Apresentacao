@@ -1,5 +1,5 @@
 import React from "react";
-import { IcoBS, IcoCSS, IcoHTML, IcoJS, IcoNx, IcoRc, IcoSS } from "../items/Icones";
+import { IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, IcoNx, IcoRc, IcoSIO, IcoSS } from "../items/Icones";
 import Projeto from "../items/Projeto";
 
 export default function Main(){
@@ -83,6 +83,14 @@ export default function Main(){
             facilitado para sua organização e pode marcar suas tarefas como concluídas e, se preferir,
             editá-las e/ou apagá-las. Seus dados e informações ficam gravadas na SessionStorage
             do dispositivo.
+            </Projeto>
+
+            <Projeto nome="The Kardz" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<IcoSS/>,<IcoNJS/>,<IcoMDB/>,<IcoDCK/>,<IcoSIO/>,<IcoAWS/>]} img="p8" link="http://54.207.135.42:3000/" repos="https://github.com/AlexandreUff/TheKardz-fe">
+            Finalmente, meu primeiro projeto Full-Stack (Front-End e Back-End)! E não apenas isso, trata-se
+            de um dos projetos mais criativos e originais que já criei embarcado com uma série de tecnologias.
+            Trata-se de um jogo online com cartas similar a um jokenpô que funciona em qualquer dispositivo,
+            mobile ou desktop, pelo navegador. O jogo permite que você crie uma sala para jogar com os seus
+            amigos ou entrar em uma e disponibiliza, também, um chat para que vocês comuniquem entre si.
             </Projeto>
         </main>
     )
