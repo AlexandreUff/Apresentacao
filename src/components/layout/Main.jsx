@@ -9,8 +9,20 @@ export default function Main(){
                 <p><b>Olá!</b></p>
                 <p><b>Seja bem-vindo(a) à minha página de apresentação de projetos.</b></p>
               <br />
-                <p className="devDesc">Sou Alexandre Magno, tenho 29 anos e sou formado em Tecnologia da Computação pela Universidade Federal Fluminense (UFF) com mais de um ano de experiência como desenvolvedor de sistemas. Tenho conhecimentos de HTML; CSS; Javascript; Bootstrap; SASS/SCSS; Next/ReactJs; React Native; APIs e seus padrões arquiteturais usando NodeJs, Express, MongoDB, Testes com Jest e Docker; tenho também um básico de Figma, MySQL e de Typescript e, atualmente, estou me aprofundando ainda mais em tecnologias Back-End.
-                Logo abaixo, segue meu portfólio que também está disponível em minha conta no GitHub. Este portfólio é construído de forma diversificada com relação às tecnologias de meu conhecimento visando sempre respeitar a responsividade, a semântica, as regras de SEO, as boas práticas, a acessibilidade, o desempenho e entre outros requisitos mínimos funcionais e necessários de uma página.
+                <p className="devDesc">
+                    Sou Alexandre Magno, tenho 29 anos e sou formado em Tecnologia da Computação pela
+                    Universidade Federal Fluminense (UFF) com mais de um ano de experiência como
+                    desenvolvedor de sistemas. Tenho conhecimentos de HTML; CSS; Javascript; Bootstrap;
+                    SASS/SCSS; Next/ReactJs; React Native; APIs e seus padrões arquiteturais usando
+                    NodeJs, Express, MongoDB, Testes com Jest, Websocket com Socket.IO, Docker e um
+                    breve contato com serviços AWS;
+                    tenho também um básico de Figma, MySQL e de Typescript e, atualmente, estou me
+                    aprofundando ainda mais em tecnologias Back-End.
+                    Logo abaixo, segue meu portfólio que também está disponível em minha conta no GitHub.
+                    Este portfólio é construído de forma diversificada com relação às tecnologias de
+                    meu conhecimento visando sempre respeitar a responsividade, a semântica, as regras
+                    de SEO, as boas práticas, a acessibilidade, o desempenho e entre outros requisitos
+                    mínimos funcionais e necessários de uma página.
                 </p>
                 <p className="devDesc">Também está disponível no final desta página um link para meu LinkedIn e também um para meu currículo com mais detalhes.</p>
                 <details>
