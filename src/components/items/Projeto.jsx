@@ -18,7 +18,11 @@ export default function Projeto(props){
                     <a href={props.link} title={`Link para acessar o ${props.nome}.`}>{props.link}</a>
                 </strong>
             </p>
-            <p className="obs"><small>Obs: No Console do Navegador são exibidas informações mais detalhadas.</small></p>
+            {
+                props.hasConsoleDatas && (
+                    <p className="obs"><small>Obs: No Console do Navegador são exibidas informações mais detalhadas.</small></p>
+                )
+            }
         <hr />
             <div className="tecnologias">
                 <p>Tecnologias usadas neste projeto:</p>
