@@ -1,5 +1,6 @@
 import React from "react";
 import { IcoGHBs, IcoLIn, IcoPDF } from "../items/Icones";
+import ReleaseYear from "../../Utils/ReleaseYear";
 
 export default function Footer(){
     return (
@@ -32,7 +33,7 @@ export default function Footer(){
             </div>
             <div>
                 <small>
-                &copy; 2023 - Alexandre Magno Dias<br />
+                &copy; {ReleaseYear("2022")} - Alexandre Magno Dias<br />
                 alexandre_magno@id.uff.br
                 </small>
             </div>
