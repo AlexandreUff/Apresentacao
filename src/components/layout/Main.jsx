@@ -1,6 +1,7 @@
 import React from "react";
 import { IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, IcoNx, IcoRc, IcoSIO, IcoSS } from "../items/Icones";
 import Projeto from "../items/Projeto";
+import ClientYear from "../../Utils/ClientYear";
 
 export default function Main(){
     return (
@@ -10,7 +11,7 @@ export default function Main(){
                 <p><b>Seja bem-vindo(a) à minha página de apresentação de projetos.</b></p>
               <br />
                 <p className="devDesc">
-                    Sou Alexandre Magno, tenho 29 anos e sou formado em Tecnologia da Computação pela
+                    Sou Alexandre Magno, tenho {ClientYear("1993/11/16")} anos e sou formado em Tecnologia da Computação pela
                     Universidade Federal Fluminense (UFF) com mais de um ano de experiência como
                     desenvolvedor de sistemas. Tenho conhecimentos de HTML; CSS; Javascript; Bootstrap;
                     SASS/SCSS; Next/ReactJs; React Native; APIs e seus padrões arquiteturais usando
