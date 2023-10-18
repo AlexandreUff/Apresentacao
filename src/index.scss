@@ -60,6 +60,7 @@ header {
     font-size: 8.6rem;
     font-family: 'League Gothic', sans-serif;
     margin-left: 50px;
+    z-index: 1;
   }
 
 }
@@ -75,20 +76,64 @@ main{
   flex-direction: column;
 
   .card-show{
+    div {
+      
+      background-color: $secondary-color;
+      width: 95%;
+      /* margin: 10px; */
+      padding: 20px;
+      color: $other-color;
+
+      /* border: 3px solid $other-color;
+      box-shadow: 8px 8px 10px #00000080; */
+
+      transform: /* perspective(20.5cm) */ rotateX(-7deg) rotateY(5deg);
+    }
+
     align-self: end;
-    background-color: $secondary-color;
+    background-color: $other-color;
+    border: 1px solid $base-color;
     width: 68%;
     margin: 10px;
     padding: 20px;
-    border-radius: 8px;
-    color: $other-color;
 
-    border-top: 3px solid $other-color;
-    border-bottom: 3px solid $other-color;
     box-shadow: 8px 8px 10px #00000080;
 
-    details{
-      display: none;
+    transform: perspective(10.5cm) rotateX(-7deg) rotateY(5deg);
+  }
+
+  .my-skills{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: $main-color;
+    box-shadow:  8px 8px 10px #00000080;
+
+    .title-content{
+      position: absolute;
+      top: -20px;
+      left: 40px;
+
+      /* border: 2px $base-color solid;
+      border-left: 3px $base-color solid;
+      border-top: none; */
+
+      padding: 10px;
+
+      background-color: $main-color;
+
+      transform: perspective(15.5cm) rotateX(-15deg) rotateY(15deg);
+
+      .title{
+        padding: 10px 20px;
+
+        background-color: $other-color;
+        color: $main-color;
+        font-weight: 900;
+        font-size: 1rem;
+
+        transform: perspective(7.5cm) rotateX(-7deg) rotateY(15deg);
+      }
     }
   }
 
@@ -165,7 +210,8 @@ main{
         align-items: center;
         flex-wrap: wrap;
   
-        img{
+        img, svg{
+          color: $main-color;
           width: 50px;
           margin: 5px;
         }
@@ -183,7 +229,8 @@ main{
       background-color: $secondary-color;
       }
 
-      img {
+      img, svg {
+        color: $other-color;
         width: 20px;
         margin-right: 3px;
       }
@@ -311,26 +358,7 @@ footer{
     margin-top: 350px;
 
     .card-show{
-      .devDesc{
-        display: none;
-      }
-
-      details{
-        display: block;
-        
-        summary{
-          font-size: .8rem;
-          background-color: $other-color;
-          color: $secondary-color;
-          text-align: center;
-          border-radius: 3px;
-          padding: 5px;
-        }
-
-        p{
-          margin-top: 10px;
-        }
-      }
+      /* Remover este */
     }
 
     .projeto{

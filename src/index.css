@@ -49,6 +49,7 @@ header h1 {
   font-size: 8.6rem;
   font-family: "League Gothic", sans-serif;
   margin-left: 50px;
+  z-index: 1;
 }
 
 .bg-image-effect {
@@ -63,18 +64,49 @@ main {
 }
 main .card-show {
   align-self: end;
-  background-color: #D82148;
+  background-color: #DADBBD;
+  border: 1px solid #6EBF8B;
   width: 68%;
   margin: 10px;
   padding: 20px;
-  border-radius: 8px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5019607843);
+  transform: perspective(10.5cm) rotateX(-7deg) rotateY(5deg);
+}
+main .card-show div {
+  background-color: #D82148;
+  width: 95%;
+  /* margin: 10px; */
+  padding: 20px;
   color: #DADBBD;
-  border-top: 3px solid #DADBBD;
-  border-bottom: 3px solid #DADBBD;
+  /* border: 3px solid $other-color;
+  box-shadow: 8px 8px 10px #00000080; */
+  transform: rotateX(-7deg) rotateY(5deg);
+}
+main .my-skills {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #151D3B;
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5019607843);
 }
-main .card-show details {
-  display: none;
+main .my-skills .title-content {
+  position: absolute;
+  top: -20px;
+  left: 40px;
+  /* border: 2px $base-color solid;
+  border-left: 3px $base-color solid;
+  border-top: none; */
+  padding: 10px;
+  background-color: #151D3B;
+  transform: perspective(15.5cm) rotateX(-15deg) rotateY(15deg);
+}
+main .my-skills .title-content .title {
+  padding: 10px 20px;
+  background-color: #DADBBD;
+  color: #151D3B;
+  font-weight: 900;
+  font-size: 1rem;
+  transform: perspective(7.5cm) rotateX(-7deg) rotateY(15deg);
 }
 main .projeto {
   background-color: #6EBF8B;
@@ -137,7 +169,8 @@ main .projeto .tecnologias div {
   align-items: center;
   flex-wrap: wrap;
 }
-main .projeto .tecnologias div img {
+main .projeto .tecnologias div img, main .projeto .tecnologias div svg {
+  color: #151D3B;
   width: 50px;
   margin: 5px;
 }
@@ -149,7 +182,8 @@ main .projeto .github a {
   align-items: center;
   background-color: #D82148;
 }
-main .projeto .github img {
+main .projeto .github img, main .projeto .github svg {
+  color: #DADBBD;
   width: 20px;
   margin-right: 3px;
 }
@@ -244,22 +278,8 @@ footer a:hover svg {
   main {
     margin-top: 350px;
   }
-  main .card-show .devDesc {
-    display: none;
-  }
-  main .card-show details {
-    display: block;
-  }
-  main .card-show details summary {
-    font-size: 0.8rem;
-    background-color: #DADBBD;
-    color: #D82148;
-    text-align: center;
-    border-radius: 3px;
-    padding: 5px;
-  }
-  main .card-show details p {
-    margin-top: 10px;
+  main .card-show {
+    /* Remover este */
   }
   main .projeto h2 {
     font-size: 2rem;

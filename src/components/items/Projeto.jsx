@@ -1,4 +1,4 @@
-import { IcoGH } from "./Icones";
+import { IcoGH, IcoGHBs } from "./Icones";
 
 export default function Projeto(props){
     return (
@@ -33,7 +33,7 @@ export default function Projeto(props){
         <hr />
             <div className="github" >
                 <a href={props.repos} target="blank" title={`Clique aqui para acessar o repositório de ${props.nome}.`} >
-                    <IcoGH/><small>Clique aqui para acessar o repositório.</small>
+                    <IcoGHBs/><small>Clique aqui para acessar o repositório.</small>
                 </a>
             </div>
         </section>
