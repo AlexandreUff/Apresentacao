@@ -173,14 +173,21 @@ main .my-skills .skill-board .skill-content {
   min-width: 60px;
   padding: 5px 2px;
   margin: 0 5px;
-  transform: perspective(7.5cm) rotateX(-7deg) rotateY(15deg);
-  animation-name: grow-to-left;
+}
+main .my-skills .skill-board .skill-content svg {
+  width: 80%;
+}
+main .my-skills .skill-board .skill-content:nth-child(odd) {
+  animation-name: pump-up;
   animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
-main .my-skills .skill-board .skill-content svg {
-  width: 80%;
+main .my-skills .skill-board .skill-content:nth-child(even) {
+  animation-name: pump-down;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 main .projeto {
   background-color: #6EBF8B;
@@ -386,6 +393,22 @@ footer a:hover svg {
   }
   100% {
     transform: rotate(0.7deg);
+  }
+}
+@keyframes pump-up {
+  0% {
+    transform: scale(1) rotate(-1deg);
+  }
+  50% {
+    transform: scale(1.02) rotate(1deg);
+  }
+}
+@keyframes pump-down {
+  0% {
+    transform: scale(1.02) rotate(1deg);
+  }
+  50% {
+    transform: scale(1) rotate(-1deg);
   }
 }
 
