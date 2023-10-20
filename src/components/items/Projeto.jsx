@@ -1,4 +1,4 @@
-import { IcoGH, IcoGHBs } from "./Icones";
+import { IcoGHBs } from "./Icones";
 
 export default function Projeto(props){
     return (
