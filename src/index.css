@@ -115,6 +115,7 @@ main .my-skills .click-btn {
   font-size: 1.5rem;
   font-weight: 900;
   user-select: none;
+  z-index: 1;
 }
 main .my-skills .click-btn:hover {
   cursor: pointer;

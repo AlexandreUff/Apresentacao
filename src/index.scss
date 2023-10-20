@@ -144,6 +144,8 @@ main{
       font-weight: 900;
       user-select: none;
 
+      z-index: 1;
+
       &:hover{
         cursor: pointer;
       }
