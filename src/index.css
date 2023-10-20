@@ -172,6 +172,11 @@ main .my-skills .skill-board .skill-content {
   min-width: 60px;
   padding: 5px 2px;
   margin: 0 5px;
+  transform: perspective(7.5cm) rotateX(-7deg) rotateY(15deg);
+  animation-name: grow-to-left;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 main .my-skills .skill-board .skill-content svg {
   width: 80%;
