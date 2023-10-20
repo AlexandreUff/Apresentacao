@@ -2,8 +2,10 @@ import React from "react";
 import { IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, IcoNx, IcoRc, IcoSIO, IcoSS } from "../items/Icones";
 import Projeto from "../items/Projeto";
 import ClientYear from "../../Utils/ClientYear";
+import Skillboard from "../items/Skillboard";
 
 export default function Main(){
+
     return (
         <main>
             <div className="card-show">
@@ -28,7 +30,9 @@ export default function Main(){
                 </div>
             </div>
 
-            <div className="my-skills">
+            <Skillboard />
+
+            {/* <div className="my-skills">
                 <div className="title-content">
                     <div className="title">
                         MINHAS SKILLS
@@ -37,7 +41,7 @@ export default function Main(){
                 <div className="skill-content">
                     
                 </div>
-            </div>
+            </div> */}
 
             <Projeto nome="The Kardz" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<IcoSS/>,<IcoNJS/>,<IcoMDB/>,<IcoDCK/>,<IcoSIO/>,<IcoAWS/>]} img="p8" link="http://54.207.135.42:3000/" repos="https://github.com/AlexandreUff/TheKardz-fe">
             Finalmente, meu primeiro projeto Full-Stack (Front-End e Back-End)! E não apenas isso, trata-se

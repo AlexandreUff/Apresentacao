@@ -71,6 +71,11 @@ main .card-show {
   padding: 20px;
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5019607843);
   transform: perspective(10.5cm) rotateX(-7deg) rotateY(5deg);
+  animation-name: grow-to-left;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  z-index: 1;
 }
 main .card-show div {
   background-color: #D82148;
@@ -81,24 +86,60 @@ main .card-show div {
   /* border: 3px solid $other-color;
   box-shadow: 8px 8px 10px #00000080; */
   transform: rotateX(-7deg) rotateY(5deg);
+  animation-name: grow-to-right;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 main .my-skills {
+  display: flex;
+  align-items: center;
+  /* overflow-x: hidden; */
   position: relative;
   width: 100%;
   height: 100px;
   background-color: #151D3B;
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5019607843);
 }
+main .my-skills .click-btn {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 90%;
+  width: 40px;
+  color: #DADBBD;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+main .my-skills .click-btn:hover {
+  cursor: pointer;
+}
+main .my-skills .click-btn#btn-scroll-left {
+  /* background-color: rgba(255, 0, 0, 0.507); */
+  background-image: linear-gradient(to right, #151D3B, #151D3B, rgba(0, 0, 0, 0));
+  left: 0px;
+}
+main .my-skills .click-btn#btn-scroll-right {
+  background-image: linear-gradient(to left, #151D3B, #151D3B, rgba(0, 0, 0, 0));
+  right: 0px;
+}
 main .my-skills .title-content {
   position: absolute;
   top: -20px;
   left: 40px;
-  /* border: 2px $base-color solid;
-  border-left: 3px $base-color solid;
-  border-top: none; */
   padding: 10px;
+  /* border-bottom: 2px solid $other-color; */
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5019607843);
   background-color: #151D3B;
-  transform: perspective(15.5cm) rotateX(-15deg) rotateY(15deg);
+  /* transform: perspective(15.5cm) rotateX(-15deg) rotateY(15deg); */
+  animation-name: grow-to-left;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  z-index: 1;
 }
 main .my-skills .title-content .title {
   padding: 10px 20px;
@@ -107,6 +148,31 @@ main .my-skills .title-content .title {
   font-weight: 900;
   font-size: 1rem;
   transform: perspective(7.5cm) rotateX(-7deg) rotateY(15deg);
+  animation-name: grow-to-right;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+main .my-skills .skill-board {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  overflow-x: scroll;
+  width: 100%;
+  height: 70px;
+  padding: 20px 0;
+}
+main .my-skills .skill-board .skill-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DADBBD;
+  border-radius: 5px;
+  min-width: 60px;
+  padding: 5px 2px;
+  margin: 0 5px;
+}
+main .my-skills .skill-board .skill-content svg {
+  width: 80%;
 }
 main .projeto {
   background-color: #6EBF8B;
@@ -284,6 +350,34 @@ footer a:hover svg {
   main .projeto h2 {
     font-size: 2rem;
     -webkit-text-stroke-width: 1px;
+  }
+}
+@keyframes grow-to-left {
+  0% {
+    transform: perspective(10.5cm) rotateX(-7deg) rotateY(5deg) rotate(0deg);
+  }
+  25% {
+    transform: perspective(10.5cm) rotateX(-7deg) rotateY(5deg) rotate(0.5deg);
+  }
+  50% {
+    transform: perspective(10.5cm) rotateX(-7deg) rotateY(5deg) rotate(0deg);
+  }
+  100% {
+    transform: perspective(10.5cm) rotateX(-7deg) rotateY(5deg) rotate(-0.5deg);
+  }
+}
+@keyframes grow-to-right {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-0.7deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0.7deg);
   }
 }
 
