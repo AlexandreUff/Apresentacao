@@ -10,12 +10,12 @@ export default function Skillboard(){
     const moveSkillControll = (distance) => {
         console.log(skillScroll[0].scrollLeft)
         skillScroll[0].scrollLeft += distance
-        console.log("H", skillScroll[0].scrollWidth)
+        /* console.log("H", skillScroll[0].scrollWidth) */
 
-        const leftScrollButton = document.getElementById("btn-scroll-left");
-        const rightScrollButton = document.getElementById("btn-scroll-right");
+        /* const leftScrollButton = document.getElementById("btn-scroll-left");
+        const rightScrollButton = document.getElementById("btn-scroll-right"); */
 
-        if(skillScroll[0].scrollLeft === 0){
+        /* if(skillScroll[0].scrollLeft === 0){
             leftScrollButton.style.visibility = "hidden"
         } else {
             leftScrollButton.style.visibility = "visible"
@@ -25,7 +25,7 @@ export default function Skillboard(){
             rightScrollButton.style.visibility = "hidden"
         } else {
             rightScrollButton.style.visibility = "visible"
-        }
+        } */
     }
 
     return (
