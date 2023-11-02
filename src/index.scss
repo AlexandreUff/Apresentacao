@@ -265,6 +265,8 @@ main{
       font-weight:900;
       text-transform: uppercase;
       text-shadow: 1px 1px 7px $main-color;
+
+      animation: title-distortion 2s ease infinite;
     }
 
     .imagens{
@@ -551,5 +553,34 @@ footer{
   75% {
     border-right: 4px solid $main-color;
     border-left: 6px solid $main-color;
+  }
+}
+
+@keyframes title-distortion {
+
+  32% {
+    -webkit-text-stroke-color: $other-color;
+    color: $base-color;
+    text-shadow: 1px 1px 7px $main-color;
+  }
+
+  34% {
+    -webkit-text-stroke-color: $secondary-color;
+    text-shadow: 1px 1px 7px $other-color;
+    margin-right: 15px;
+    color: $other-color
+  }
+
+  36% {
+    margin-right: 0px;
+    -webkit-text-stroke-color: $main-color;
+    margin-left: 15px;
+  }
+
+  38% {
+    margin-left: 0px;
+    -webkit-text-stroke-color: $other-color;
+    color: $base-color;
+    text-shadow: 1px 1px 7px $main-color;
   }
 }

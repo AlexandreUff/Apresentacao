@@ -212,6 +212,7 @@ main .projeto h2 {
   font-weight: 900;
   text-transform: uppercase;
   text-shadow: 1px 1px 7px #151D3B;
+  animation: title-distortion 2s ease infinite;
 }
 main .projeto .imagens {
   text-align: center;
@@ -428,6 +429,30 @@ footer a:hover svg {
   75% {
     border-right: 4px solid #151D3B;
     border-left: 6px solid #151D3B;
+  }
+}
+@keyframes title-distortion {
+  32% {
+    -webkit-text-stroke-color: #DADBBD;
+    color: #6EBF8B;
+    text-shadow: 1px 1px 7px #151D3B;
+  }
+  34% {
+    -webkit-text-stroke-color: #D82148;
+    text-shadow: 1px 1px 7px #DADBBD;
+    margin-right: 15px;
+    color: #DADBBD;
+  }
+  36% {
+    margin-right: 0px;
+    -webkit-text-stroke-color: #151D3B;
+    margin-left: 15px;
+  }
+  38% {
+    margin-left: 0px;
+    -webkit-text-stroke-color: #DADBBD;
+    color: #6EBF8B;
+    text-shadow: 1px 1px 7px #151D3B;
   }
 }
 
