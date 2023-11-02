@@ -204,6 +204,7 @@ main .projeto a {
   color: #DADBBD;
 }
 main .projeto h2 {
+  position: relative;
   font-size: 4.5rem;
   color: #6EBF8B;
   -webkit-text-stroke-width: 2px;
@@ -436,23 +437,30 @@ footer a:hover svg {
     -webkit-text-stroke-color: #DADBBD;
     color: #6EBF8B;
     text-shadow: 1px 1px 7px #151D3B;
+    transform: scale(1);
+    left: 0px;
   }
   34% {
     -webkit-text-stroke-color: #D82148;
     text-shadow: 1px 1px 7px #DADBBD;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     color: #DADBBD;
+    transform: scaleX(1.133);
+    left: -10px;
   }
   36% {
-    margin-right: 0px;
+    /* margin-right: 0px; */
     -webkit-text-stroke-color: #151D3B;
-    margin-left: 15px;
+    /* margin-left: 15px; */
+    left: 10px;
   }
   38% {
-    margin-left: 0px;
+    /* margin-left: 0px; */
     -webkit-text-stroke-color: #DADBBD;
     color: #6EBF8B;
     text-shadow: 1px 1px 7px #151D3B;
+    transform: scale(1);
+    left: 0px;
   }
 }
 

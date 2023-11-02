@@ -257,6 +257,7 @@ main{
     }
 
     h2 {
+      position: relative;
       font-size: 4.5rem;
       color: $base-color;
       -webkit-text-stroke-width: 2px;
@@ -562,25 +563,32 @@ footer{
     -webkit-text-stroke-color: $other-color;
     color: $base-color;
     text-shadow: 1px 1px 7px $main-color;
+    transform: scale(1);
+    left: 0px;
   }
 
   34% {
     -webkit-text-stroke-color: $secondary-color;
     text-shadow: 1px 1px 7px $other-color;
-    margin-right: 15px;
-    color: $other-color
+    /* margin-right: 15px; */
+    color: $other-color;
+    transform: scaleX(1.133);
+    left: -10px;
   }
 
   36% {
-    margin-right: 0px;
+    /* margin-right: 0px; */
     -webkit-text-stroke-color: $main-color;
-    margin-left: 15px;
+    /* margin-left: 15px; */
+    left: 10px;
   }
 
   38% {
-    margin-left: 0px;
+    /* margin-left: 0px; */
     -webkit-text-stroke-color: $other-color;
     color: $base-color;
     text-shadow: 1px 1px 7px $main-color;
+    transform: scale(1);
+    left: 0px;
   }
 }
