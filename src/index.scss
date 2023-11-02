@@ -569,7 +569,7 @@ footer{
 
   34% {
     -webkit-text-stroke-color: $secondary-color;
-    text-shadow: 1px 1px 7px $other-color;
+    text-shadow: 1px 1px 7px #00eeff;
     /* margin-right: 15px; */
     color: $other-color;
     transform: scaleX(1.133);
@@ -578,7 +578,7 @@ footer{
 
   36% {
     /* margin-right: 0px; */
-    -webkit-text-stroke-color: $main-color;
+    -webkit-text-stroke-color: #ff00bf6c;
     /* margin-left: 15px; */
     left: 10px;
   }

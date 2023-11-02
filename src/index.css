@@ -442,7 +442,7 @@ footer a:hover svg {
   }
   34% {
     -webkit-text-stroke-color: #D82148;
-    text-shadow: 1px 1px 7px #DADBBD;
+    text-shadow: 1px 1px 7px #00eeff;
     /* margin-right: 15px; */
     color: #DADBBD;
     transform: scaleX(1.133);
@@ -450,7 +450,7 @@ footer a:hover svg {
   }
   36% {
     /* margin-right: 0px; */
-    -webkit-text-stroke-color: #151D3B;
+    -webkit-text-stroke-color: rgba(255, 0, 191, 0.4235294118);
     /* margin-left: 15px; */
     left: 10px;
   }
