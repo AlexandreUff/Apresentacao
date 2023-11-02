@@ -197,6 +197,7 @@ main .projeto {
   padding: 10px;
   border-radius: 8px;
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5019607843);
+  animation: project-distortion 0.5s ease-in infinite;
 }
 main .projeto a {
   text-decoration: none;
@@ -409,6 +410,24 @@ footer a:hover svg {
   }
   50% {
     transform: scale(1) rotate(-1deg);
+  }
+}
+@keyframes project-distortion {
+  0% {
+    border-bottom: 4px solid #151D3B;
+    border-left: 8px solid #151D3B;
+  }
+  25% {
+    border-left: 4px solid #151D3B;
+    border-top: 8px solid #151D3B;
+  }
+  50% {
+    border-top: 4px solid #151D3B;
+    border-right: 8px solid #151D3B;
+  }
+  75% {
+    border-right: 4px solid #151D3B;
+    border-bottom: 8px solid #151D3B;
   }
 }
 
