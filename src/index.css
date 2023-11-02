@@ -415,19 +415,19 @@ footer a:hover svg {
 @keyframes project-distortion {
   0% {
     border-bottom: 4px solid #151D3B;
-    border-left: 8px solid #151D3B;
+    border-top: 6px solid #151D3B;
   }
   25% {
     border-left: 4px solid #151D3B;
-    border-top: 8px solid #151D3B;
+    border-right: 6px solid #151D3B;
   }
   50% {
     border-top: 4px solid #151D3B;
-    border-right: 8px solid #151D3B;
+    border-bottom: 6px solid #151D3B;
   }
   75% {
     border-right: 4px solid #151D3B;
-    border-bottom: 8px solid #151D3B;
+    border-left: 6px solid #151D3B;
   }
 }
 
