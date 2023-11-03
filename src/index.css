@@ -71,6 +71,7 @@ header h1 {
   font-family: "League Gothic", sans-serif;
   /* margin-left: 50px; */
   z-index: 2;
+  animation: main-title-distortion 2s ease infinite;
 }
 header .video-content {
   overflow: hidden;
@@ -535,6 +536,29 @@ footer a:hover svg {
     text-shadow: 1px 1px 7px #151D3B;
     transform: scale(1);
     left: 0px;
+  }
+}
+@keyframes main-title-distortion {
+  32% {
+    -webkit-text-stroke-color: #DADBBD;
+    color: #6EBF8B;
+    text-shadow: 1px 1px 7px #151D3B;
+    transform: scale(1);
+  }
+  34% {
+    -webkit-text-stroke-color: #D82148;
+    text-shadow: 1px 1px 7px #00eeff;
+    color: #DADBBD;
+    transform: scaleX(1.08);
+  }
+  36% {
+    -webkit-text-stroke-color: rgba(255, 0, 191, 0.4235294118);
+  }
+  38% {
+    -webkit-text-stroke-color: #DADBBD;
+    color: #6EBF8B;
+    text-shadow: 1px 1px 7px #151D3B;
+    transform: scale(1);
   }
 }
 
