@@ -104,7 +104,7 @@ main .card-show {
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  z-index: 1;
+  z-index: 2;
 }
 main .card-show div {
   background-color: #D82148;
