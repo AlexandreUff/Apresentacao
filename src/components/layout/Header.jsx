@@ -15,10 +15,13 @@ export default function Header(){
 
     return (
         <header>
-            <div className="ground">
-                <img src="/images/img-main.png" alt="Foto de Alexandre Magno" title="Alexandre Magno" />
-                <h1>ALEXANDRE MAGNO DIAS</h1>
+            <img src="/images/img-main.png" alt="Foto de Alexandre Magno" title="Alexandre Magno" />
+            <div className="video-content">
+                <video autoPlay muted loop id="video-background">
+                    <source src="/video/ground_video.mp4" type="video/mp4" />
+                </video>
             </div>
+            <h1>ALEXANDRE MAGNO DIAS</h1>
         </header>
         )
 }
