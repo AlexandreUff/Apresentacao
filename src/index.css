@@ -254,6 +254,14 @@ main .projeto .tecnologias div {
   align-items: center;
   flex-wrap: wrap;
 }
+main .projeto .tecnologias div div {
+  position: relative;
+  top: 0px;
+  transition: 0.6s;
+}
+main .projeto .tecnologias div div.top-me {
+  top: -5px;
+}
 main .projeto .tecnologias div img, main .projeto .tecnologias div svg {
   color: #151D3B;
   width: 50px;

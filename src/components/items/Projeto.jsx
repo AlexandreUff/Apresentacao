@@ -1,6 +1,39 @@
 import { IcoGHBs } from "./Icones";
 
 export default function Projeto(props){
+
+    /* const addAndRemoveClassAnimation = (myTechs) => {
+        let i = 0
+
+        setInterval(()=>{
+            myTechs[i].classList.toggle("top-me")
+
+            if(i+1 > myTechs.length){
+                i=0
+            } else {
+                i++
+            }
+        },1000)
+    } */
+    
+    setTimeout(()=>{
+        const myTechs = document.getElementsByClassName(`tech-content-of-${props.img}`)
+
+        let i = 0
+
+        setInterval(()=>{
+            myTechs[i].classList.toggle("top-me")
+
+            /* if(i === myTechs.length-1){
+                i = 0
+            } else {
+                i++
+            } */
+
+            i = i === myTechs.length-1 ? 0 : i+1
+        },100)
+    },1000)
+
     return (
     <section className="projeto">
         <a href={props.link} title={props.nome} target="blank" >
@@ -27,7 +60,13 @@ export default function Projeto(props){
             <div className="tecnologias">
                 <p>Tecnologias usadas neste projeto:</p>
                 <div>
-                    {props.techs}
+                    {props.techs.map(tech => {
+                        return (
+                            <div className={`tech-content-of-${props.img}`}>
+                                {tech}
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
         <hr />
