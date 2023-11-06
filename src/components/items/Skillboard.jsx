@@ -11,12 +11,12 @@ export default function Skillboard(){
 
         const smooth = setInterval(() => {
             if(distance < 0){
-                skillScroll[0].scrollLeft -= 4
+                skillScroll[0].scrollLeft -= 5
                 travelledDistance--
             }
 
             if(distance > 0){
-                skillScroll[0].scrollLeft += 4
+                skillScroll[0].scrollLeft += 5
                 travelledDistance++
             }
 
@@ -25,7 +25,6 @@ export default function Skillboard(){
             }
 
         }, 5)
-        /* skillScroll[0].scrollLeft += distance */
     }
 
     return (
@@ -37,8 +36,8 @@ export default function Skillboard(){
                     </div>
                 </div>
 
-                <div onClick={() => moveSkillControll(-50)} className="click-btn" id="btn-scroll-left">{"<<"}</div>
-                <div onClick={() => moveSkillControll(50)} className="click-btn" id="btn-scroll-right">{">>"}</div>
+                <div onClick={() => moveSkillControll(-50)} title="Voltar" className="click-btn" id="btn-scroll-left">{"<<"}</div>
+                <div onClick={() => moveSkillControll(50)} title="Avançar" className="click-btn" id="btn-scroll-right">{">>"}</div>
 
                 <div className="skill-board">
                         <Skill name={"skill-ico-html"} icon={<IcoHTML/>}  />
