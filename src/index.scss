@@ -47,15 +47,15 @@ header {
   &::after {
     content: "";
     position: absolute;
-    top: -54px; /* era 0px */
-    left: -25%; /* era 0px */
-    width: 150%; /* era 100% */
+    top: 0px; /* era -54px */
+    left: 0px; /* era -25% */
+    width: 100%; /* era 150% */
     height: 100%;
     /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.205), $main-color); */
     background-image: url('../public/images/three-dots-vertical.png');
-    background-size: 10px; /* era 7px */
+    background-size: 7px; /* era 10px */
     opacity: .5;
-    transform: perspective(25px) rotateX(5deg);
+    /* transform: perspective(25px) rotateX(5deg); */
   }
 
 /*   overflow: hidden; */
