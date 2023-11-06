@@ -5,7 +5,6 @@ export default function Header(){
     function effectBg(){
         const Header = document.querySelector('header');
         Header.classList.add("bg-image-effect");
-        console.log(Header);
     }
 
     setTimeout(()=>{
