@@ -4,28 +4,28 @@ import Skill from "./Skill";
 export default function Skillboard(){
 
     const skillScroll = document.getElementsByClassName("skill-board");
-
     
-
     const moveSkillControll = (distance) => {
-        console.log(skillScroll[0].scrollLeft)
-        skillScroll[0].scrollLeft += distance
-        /* console.log("H", skillScroll[0].scrollWidth) */
 
-        /* const leftScrollButton = document.getElementById("btn-scroll-left");
-        const rightScrollButton = document.getElementById("btn-scroll-right"); */
+        let travelledDistance = 0
 
-        /* if(skillScroll[0].scrollLeft === 0){
-            leftScrollButton.style.visibility = "hidden"
-        } else {
-            leftScrollButton.style.visibility = "visible"
-        } 
-        
-        if(skillScroll[0].scrollLeft + skillScroll[0].clientWidth >= skillScroll[0].scrollWidth){
-            rightScrollButton.style.visibility = "hidden"
-        } else {
-            rightScrollButton.style.visibility = "visible"
-        } */
+        const smooth = setInterval(() => {
+            if(distance < 0){
+                skillScroll[0].scrollLeft -= 4
+                travelledDistance--
+            }
+
+            if(distance > 0){
+                skillScroll[0].scrollLeft += 4
+                travelledDistance++
+            }
+
+            if(travelledDistance >= 50 || travelledDistance <= -50){
+                clearInterval(smooth)
+            }
+
+        }, 5)
+        /* skillScroll[0].scrollLeft += distance */
     }
 
     return (
