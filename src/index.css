@@ -38,14 +38,15 @@ header {
 header::after {
   content: "";
   position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
+  top: -54px; /* era 0px */
+  left: -25%; /* era 0px */
+  width: 150%; /* era 100% */
   height: 100%;
   /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.205), $main-color); */
   background-image: url("../public/images/three-dots-vertical.png");
-  background-size: 7px;
+  background-size: 10px; /* era 7px */
   opacity: 0.5;
+  transform: perspective(25px) rotateX(5deg);
 }
 header img {
   position: absolute;
