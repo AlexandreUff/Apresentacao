@@ -412,6 +412,11 @@ footer a:hover svg {
     margin: 15px 0px;
   }
 }
+@media (max-width: 600px) {
+  header .video-content {
+    display: none;
+  }
+}
 @media (max-width: 530px) {
   main .card-show div {
     width: 92%;
