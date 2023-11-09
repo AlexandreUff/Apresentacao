@@ -40,63 +40,75 @@ export default function Skillboard(){
                 <div onClick={() => moveSkillControll(50)} title="Avançar" className="click-btn" id="btn-scroll-right">{">>"}</div>
 
                 <div className="skill-board">
-                        <Skill name={"skill-ico-html"} icon={<IcoHTML/>}  />
-                        <Skill name={"skill-ico-css"} icon={<IcoCSS/>}  />
-                        <Skill name={"skill-ico-js"} icon={<IcoJS/>}  />
+                        <Skill name={"skill-ico-html"} title={"HTML"} icon={<IcoHTML/>}  />
+                        <Skill name={"skill-ico-css"} title={"CSS"} icon={<IcoCSS/>}  />
+                        <Skill name={"skill-ico-js"} title={"Javascript"} icon={<IcoJS/>}  />
+
+                        <Skill name={"skill-ico-git"} title={"Git"} icon={<ICOGit/>}  />
+                        <Skill name={"skill-ico-ts"} title={"Typescript"} icon={<ICOTSC/>}  />
+                        <Skill name={"skill-ico-bs"} title={"Bootstrap"} icon={<IcoBS/>}  />
+                        <Skill name={"skill-ico-rc"} title={"React.Js"} icon={<IcoRc/>}  />
+                        <Skill name={"skill-ico-nx"} title={"Next.Js"} icon={<IcoNx/>}  />
+                        <Skill name={"skill-ico-ss"} title={"SASS/SCSS"} icon={<IcoSS/>}  />
+                        <Skill name={"skill-ico-njs"} title={"Node.Js"} icon={<IcoNJS/>}  />
+                        <Skill name={"skill-ico-mdb"} title={"MongoDB"} icon={<IcoMDB/>}  />
+                        <Skill name={"skill-ico-sql"} title={"MySQL"} icon={<ICOSQL/>}  />
+                        <Skill name={"skill-ico-dck"} title={"Docker"} icon={<IcoDCK/>}  />
+                        <Skill name={"skill-ico-sio"} title={"Socket.io"} icon={<IcoSIO/>}  />
+                        <Skill name={"skill-ico-ec2"} title={"EC2"} icon={<ICOEC2/>}  />
+                        <Skill name={"skill-ico-aws"} title={"AWS"} icon={<IcoAWS/>}  />
+                        <Skill name={"skill-ico-jst"} title={"Jest"} icon={<ICOJST/>}  />
+                        <Skill name={"skill-ico-cyp"} title={"Cypress"} icon={<ICOCyp/>}  />
+                        {/* <Skill name={"skill-ico-"} icon={}  />
+                        <Skill name={"skill-ico-"} icon={}  />
+                        <Skill name={"skill-ico-"} icon={}  />
+                        <Skill name={"skill-ico-"} icon={}  /> */}
+
                         {/* <div className="skill-content">
-                            <IcoHTML/>
-                        </div>
-                        <div className="skill-content">
-                            <IcoCSS/>
-                        </div>
-                        <div className="skill-content">
-                            <IcoJS/>
-                        </div> */}
-                        <div className="skill-content">
                         <ICOGit/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <ICOTSC/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <IcoBS/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <IcoRc/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <IcoNx/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <IcoSS/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <IcoNJS/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <IcoMDB/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <ICOSQL/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <IcoDCK/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <IcoSIO/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <ICOEC2/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <IcoAWS/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <ICOJST/>
-                        </div>
-                        <div className="skill-content">
+                        </div> */}
+                        {/* <div className="skill-content">
                         <ICOCyp/>
-                        </div>
+                        </div> */}
                 </div>
             </div>
         </>

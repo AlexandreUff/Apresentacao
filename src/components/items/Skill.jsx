@@ -9,7 +9,7 @@ export default function Skill(props){
 
     return (
         <>
-            <div className="skill-content" id={props.name}>
+            <div className="skill-content" id={props.name} title={props.title}>
                 {props.icon}
             </div>
         </>
