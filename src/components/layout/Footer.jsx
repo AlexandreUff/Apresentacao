@@ -34,7 +34,7 @@ export default function Footer(){
             <div>
                 <small>
                 &copy; {ReleaseYear("2022")} - Alexandre Magno Dias<br />
-                alexandre_magno@id.uff.br
+                alexandre.magno.wrk@gmail.com
                 </small>
             </div>
         </footer>
