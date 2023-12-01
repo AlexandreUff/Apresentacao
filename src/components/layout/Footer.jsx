@@ -18,7 +18,7 @@ export default function Footer(){
                         </a>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/file/d/1VY_KJL4z3YhXYYhJx04lPM3FpGPX3Uot/view?usp=share_link" title="Acesso ao currículo de Alexandre Magno" target="blank" >
+                        <a href="https://drive.google.com/file/d/1mjRuG7yA4TX5dmp-JTLBlfp3jKBP9HlL/view?usp=drive_link" title="Acesso ao currículo de Alexandre Magno" target="blank" >
                             <IcoPDF/>
                         </a>
                     </li>
