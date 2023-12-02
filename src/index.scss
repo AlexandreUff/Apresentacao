@@ -387,10 +387,11 @@ main{
       display: inline-flex;
       align-items: center;
       background-color: $secondary-color;
+
       }
 
       img, svg {
-        color: $other-color;
+        fill: $other-color;
         width: 20px;
         margin-right: 3px;
       }

@@ -43,7 +43,7 @@ export default function Main(){
                 </div>
             </div> */}
 
-            <Projeto nome="Curso de Latim" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<ICOTSC />,<IcoNx />]} img="p9" link="https://www.cursodelatim.com.br" repos="https://github.com/AlexandreUff/TheKardz-fe">
+            <Projeto nome="Curso de Latim" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<ICOTSC />,<IcoNx />]} img="p9" link="https://www.cursodelatim.com.br" /* repos="https://github.com/AlexandreUff/TheKardz-fe" */>
             Meu primeiro trabalho freelancer. Esse, diferentemente dos trabalhos postados aqui anteriormente, não
             é meramente um portfólio, mas sim um trabalho oficial que fiz ao meu irmão que é professor de latim.
             Trata-se de uma landing page para divulgação de seu curso online. É também meu segundo trabalho usando

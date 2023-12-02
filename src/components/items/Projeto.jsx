@@ -1,4 +1,4 @@
-import { IcoGHBs } from "./Icones";
+import { IcoGHBs, IcoLCK } from "./Icones";
 
 export default function Projeto(props){
 
@@ -71,9 +71,15 @@ export default function Projeto(props){
             </div>
         <hr />
             <div className="github" >
-                <a href={props.repos} target="blank" title={`Clique aqui para acessar o repositório de ${props.nome}.`} >
-                    <IcoGHBs/><small>Clique aqui para acessar o repositório.</small>
-                </a>
+                {props.repos ? (
+                    <a href={props.repos} target="blank" title={`Clique aqui para acessar o repositório de ${props.nome}.`} >
+                        <IcoGHBs/><small>Clique aqui para acessar o repositório.</small>
+                    </a>
+                ) : (
+                    <a target="blank" title={`O repositório de ${props.nome} não é público.`} >
+                        <IcoLCK/><small>Este repositório é privado.</small>
+                    </a>
+                )}
             </div>
         </section>
     )
