@@ -1,5 +1,5 @@
 import React from "react";
-import { IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, IcoNx, IcoRc, IcoSIO, IcoSS } from "../items/Icones";
+import { ICOTSC, IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, IcoNx, IcoRc, IcoSIO, IcoSS } from "../items/Icones";
 import Projeto from "../items/Projeto";
 import ClientYear from "../../Utils/ClientYear";
 import Skillboard from "../items/Skillboard";
@@ -42,6 +42,15 @@ export default function Main(){
                     
                 </div>
             </div> */}
+
+            <Projeto nome="Curso de Latim" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<ICOTSC />,<IcoNx />]} img="p9" link="https://www.cursodelatim.com.br" repos="https://github.com/AlexandreUff/TheKardz-fe">
+            Meu primeiro trabalho freelancer. Esse, diferentemente dos trabalhos postados aqui anteriormente, não
+            é meramente um portfólio, mas sim um trabalho oficial que fiz ao meu irmão que é professor de latim.
+            Trata-se de uma landing page para divulgação de seu curso online. É também meu segundo trabalho usando
+            o Next.Js e  primeiro usando o Typescript. E nele há uma animação logo na entrada do site que deixou
+            com um aspecto muito bacana e profissional que vale muito a pena conferir.
+            Sem dúvidas um dos melhores layouts (se não o melhor) que já fiz.
+            </Projeto>
 
             <Projeto nome="The Kardz" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<IcoSS/>,<IcoNJS/>,<IcoMDB/>,<IcoDCK/>,<IcoSIO/>,<IcoAWS/>]} img="p8" link="http://54.207.135.42:3000/" repos="https://github.com/AlexandreUff/TheKardz-fe">
             Finalmente, meu primeiro projeto Full-Stack (Front-End e Back-End)! E não apenas isso, trata-se
