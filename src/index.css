@@ -298,12 +298,13 @@ main .projeto .tecnologias div img, main .projeto .tecnologias div svg {
   width: 50px;
   margin: 5px;
 }
-main .projeto .github a {
+main .projeto .github a, main .projeto .github div {
   margin-top: 10px;
   border-radius: 5px;
   padding: 2px;
   display: inline-flex;
   align-items: center;
+  color: #DADBBD;
   background-color: #D82148;
 }
 main .projeto .github img, main .projeto .github svg {

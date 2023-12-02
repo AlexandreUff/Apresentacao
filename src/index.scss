@@ -380,12 +380,13 @@ main{
 
     .github {
 
-      a {
+      a, div {
       margin-top: 10px;
       border-radius: 5px;
       padding: 2px;
       display: inline-flex;
       align-items: center;
+      color: $other-color;
       background-color: $secondary-color;
 
       }

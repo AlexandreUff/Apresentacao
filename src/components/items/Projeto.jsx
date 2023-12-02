@@ -76,9 +76,9 @@ export default function Projeto(props){
                         <IcoGHBs/><small>Clique aqui para acessar o repositório.</small>
                     </a>
                 ) : (
-                    <a target="blank" title={`O repositório de ${props.nome} não é público.`} >
+                    <div title={`O repositório de ${props.nome} não é público.`} >
                         <IcoLCK/><small>Este repositório é privado.</small>
-                    </a>
+                    </div>
                 )}
             </div>
         </section>
