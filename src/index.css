@@ -206,7 +206,7 @@ main .my-skills .skill-board .skill-content {
   margin: 0 5px;
 }
 main .my-skills .skill-board .skill-content svg {
-  width: 80%;
+  width: 65%;
 }
 main .my-skills .skill-board .skill-content:nth-child(odd) {
   animation-name: pump-up;
