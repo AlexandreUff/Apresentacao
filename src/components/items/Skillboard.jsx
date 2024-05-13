@@ -51,7 +51,9 @@ export default function Skillboard(){
                         <Skill name={"skill-ico-rn"} title={"React Native"} icon={<ICORN/>}  />
                         <Skill name={"skill-ico-nx"} title={"Next.Js"} icon={<IcoNx/>}  />
                         <Skill name={"skill-ico-ss"} title={"SASS/SCSS"} icon={<IcoSS/>}  />
+                        <Skill name={"skill-ico-mui"} title={"Material UI"} icon={<IcoMUI />} />
                         <Skill name={"skill-ico-njs"} title={"Node.Js"} icon={<IcoNJS/>}  />
+                        <Skill name={"skill-ico-nest"} title={"Nest.Js"} icon={<IcoNST />} />
                         <Skill name={"skill-ico-mdb"} title={"MongoDB"} icon={<IcoMDB/>}  />
                         <Skill name={"skill-ico-sql"} title={"MySQL"} icon={<ICOSQL/>}  />
                         <Skill name={"skill-ico-dck"} title={"Docker"} icon={<IcoDCK/>}  />
@@ -60,8 +62,6 @@ export default function Skillboard(){
                         <Skill name={"skill-ico-aws"} title={"AWS"} icon={<IcoAWS/>}  />
                         <Skill name={"skill-ico-jst"} title={"Jest"} icon={<ICOJST/>}  />
                         <Skill name={"skill-ico-cyp"} title={"Cypress"} icon={<ICOCyp/>}  />
-                        <Skill name={"skill-ico-mui"} title={"Material UI"} icon={<IcoMUI />} />
-                        <Skill name={"skill-ico-nest"} title={"Nest.Js"} icon={<IcoNST />} />
                 </div>
             </div>
         </>
