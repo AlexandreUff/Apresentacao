@@ -35,6 +35,21 @@ code {
   z-index: 2;
 }
 
+.main-modal {
+    position:fixed;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #151d3b80;
+    z-index: 10;
+}
+
 header {
   position: relative;
   border-bottom: 20px solid $other-color;

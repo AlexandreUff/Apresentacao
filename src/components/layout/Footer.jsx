@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { IcoGHBs, IcoLIn, IcoPDF } from "../items/Icones";
 import ReleaseYear from "../../Utils/ReleaseYear";
+import Modal from "../items/Modal";
 
 export default function Footer(){
+
+    const [openModal, setOpenModal] = useState(false)
+
     return (
         <footer>
+            <Modal isOpen={openModal} isClose={setOpenModal}>
+                <div style={{backgroundColor: 'red', width: '50px', height: '50px'}}>
+                    Teste
+                </div>
+            </Modal>
             <nav className="media">
                 <ul>
                     <li>
@@ -18,7 +27,12 @@ export default function Footer(){
                         </a>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/file/d/1mjRuG7yA4TX5dmp-JTLBlfp3jKBP9HlL/view?usp=drive_link" title="Acesso ao currículo de Alexandre Magno" target="blank" >
+                        <a
+                            /* href="https://drive.google.com/file/d/1mjRuG7yA4TX5dmp-JTLBlfp3jKBP9HlL/view?usp=drive_link" */
+                            title="Acesso ao currículo de Alexandre Magno"
+                            target="blank"
+                            onClick={() => setOpenModal(true)}
+                        >
                             <IcoPDF/>
                         </a>
                     </li>
