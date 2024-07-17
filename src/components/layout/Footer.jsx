@@ -26,7 +26,7 @@ export default function Footer(){
                         </a>
                     </li>
                     <li>
-                        <span title="Acesso ao currículo de Alexandre Magno" onClick={() => setOpenModal(true)} >
+                        <span className="resume" title="Acesso ao currículo de Alexandre Magno" onClick={() => setOpenModal(true)} >
                             <IcoCV/>
                         </span>
                     </li>

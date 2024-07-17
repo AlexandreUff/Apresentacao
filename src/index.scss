@@ -500,6 +500,28 @@ footer{
     }
   }
 
+  span.resume{
+    position: relative;
+
+      &::after, &::before{
+        position: absolute;
+        font-weight: 600;
+        font-size: .8rem;
+      }
+
+      &::after{
+        content: 'Currículo';
+        top: -55px;
+        left: 0px;
+      }
+
+      &::before{
+        content: 'Resume';
+        bottom: -17px;
+        left: 2px;
+      }
+  }
+
 }
 
 /* Responsividade */

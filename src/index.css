@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&family=League+Gothic&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
@@ -391,6 +392,24 @@ footer a, footer span {
 }
 footer a:hover svg, footer span:hover svg {
   color: #D82148;
+}
+footer span.resume {
+  position: relative;
+}
+footer span.resume::after, footer span.resume::before {
+  position: absolute;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+footer span.resume::after {
+  content: "Currículo";
+  top: -55px;
+  left: 0px;
+}
+footer span.resume::before {
+  content: "Resume";
+  bottom: -17px;
+  left: 2px;
 }
 
 /* Responsividade */
