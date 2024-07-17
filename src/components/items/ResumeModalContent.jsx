@@ -21,7 +21,8 @@ export default function ResumeModalContent(){
                                 height: '40px',
                                 margin: '0px',
                                 fontSize: '1.5rem',
-                                fontWeight: 'bold'
+                                fontWeight: 'bold',
+                                color: '#6EBF8B'
                             }
                         }
                     >
@@ -62,7 +63,7 @@ export default function ResumeModalContent(){
                                         color: '#151D3B'
                                     }}
                                 >
-                                    🇺🇸 Inglês (PDF)
+                                    🇺🇸 English (PDF)
                                 </a>
                             </li>
                         </ul>
