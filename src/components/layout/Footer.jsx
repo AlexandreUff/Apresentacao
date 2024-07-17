@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { IcoCV, IcoGHBs, IcoLIn, IcoPDF } from "../items/Icones";
+import { IcoCV, IcoGHBs, IcoLIn } from "../items/Icones";
 import ReleaseYear from "../../Utils/ReleaseYear";
 import Modal from "../items/Modal";
 
