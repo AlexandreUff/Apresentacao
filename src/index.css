@@ -340,7 +340,7 @@ main .jump-to-CV {
   box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5019607843);
   width: 120px;
   height: 120px;
-  z-index: 100;
+  z-index: 9;
   cursor: pointer;
   transition: 0.3s;
   animation: jump-to-cv-animation 1s ease infinite;

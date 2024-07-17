@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { ICOTSC, IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, IcoNx, IcoRc, IcoSIO, IcoSS } from "../items/Icones";
 import Projeto from "../items/Projeto";
 import ClientYear from "../../Utils/ClientYear";
 import Skillboard from "../items/Skillboard";
 import JumpToCV from "../items/JumpToCurriculum";
+import Modal from "../items/Modal";
+import ResumeModalContent from "../items/ResumeModalContent";
 
 export default function Main(){
 
+    const [openModal, setOpenModal] = useState(false)
+
     return (
         <main>
-            <JumpToCV />
+            <Modal isOpen={openModal} isClose={setOpenModal}>
+                <ResumeModalContent />
+            </Modal>
+            <JumpToCV click={() => { setOpenModal(true) }} />
             <div className="card-show">
                 <div>
                 <p><b>Olá!</b></p>
