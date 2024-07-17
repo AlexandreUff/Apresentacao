@@ -352,7 +352,7 @@ footer svg {
 footer a {
   color: #6EBF8B;
 }
-footer a:hover svg {
+footer a:hover svg, footer span:hover svg {
   color: #D82148;
 }
 

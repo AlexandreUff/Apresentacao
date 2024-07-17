@@ -449,7 +449,7 @@ footer{
     color: $base-color;
   }
 
-  a:hover svg {
+  a:hover svg, span:hover svg {
     color: $secondary-color;
   }
 

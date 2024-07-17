@@ -92,10 +92,9 @@ export default function Footer(){
                         </a>
                     </li>
                     <li>
-                        <a title="Acesso ao currículo de Alexandre Magno" onClick={() => setOpenModal(true)}
-                        >
+                        <span onClick={() => setOpenModal(true)} >
                             <IcoPDF/>
-                        </a>
+                        </span>
                     </li>
                 </ul>
                 
