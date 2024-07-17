@@ -415,6 +415,38 @@ main{
     }
 
   }
+
+  .jump-to-CV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+
+    background-color: $main-color;
+    border: 6px solid $other-color;
+    border-radius: 50%;
+
+    width: 120px;
+    height: 120px;
+
+    z-index: 100;
+
+    svg {
+        width: 40%;
+        fill: $other-color;
+        margin: 4px 0;
+    }
+
+    p {
+        color: $other-color;
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+  }
 }
 
 footer{

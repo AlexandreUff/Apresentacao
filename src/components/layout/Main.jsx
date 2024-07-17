@@ -3,11 +3,13 @@ import { ICOTSC, IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, 
 import Projeto from "../items/Projeto";
 import ClientYear from "../../Utils/ClientYear";
 import Skillboard from "../items/Skillboard";
+import JumpToCV from "../items/JumpToCurriculum";
 
 export default function Main(){
 
     return (
         <main>
+            <JumpToCV />
             <div className="card-show">
                 <div>
                 <p><b>Olá!</b></p>

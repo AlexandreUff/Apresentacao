@@ -326,6 +326,31 @@ main .projeto .github img, main .projeto .github svg {
   width: 20px;
   margin-right: 3px;
 }
+main .jump-to-CV {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  background-color: #151D3B;
+  border: 6px solid #DADBBD;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  z-index: 100;
+}
+main .jump-to-CV svg {
+  width: 40%;
+  fill: #DADBBD;
+  margin: 4px 0;
+}
+main .jump-to-CV p {
+  color: #DADBBD;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
 
 footer {
   margin-top: 50px;
