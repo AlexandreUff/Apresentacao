@@ -332,14 +332,18 @@ main .jump-to-CV {
   align-items: center;
   justify-content: center;
   position: fixed;
-  bottom: 80px;
+  top: 77vh;
   right: 40px;
   background-color: #151D3B;
   border: 6px solid #DADBBD;
   border-radius: 50%;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5019607843);
   width: 120px;
   height: 120px;
   z-index: 100;
+  cursor: pointer;
+  transition: 0.3s;
+  animation: jump-to-cv-animation 1s ease infinite;
 }
 main .jump-to-CV svg {
   width: 40%;
@@ -350,6 +354,14 @@ main .jump-to-CV p {
   color: #DADBBD;
   font-size: 0.7rem;
   font-weight: 600;
+}
+main .jump-to-CV:hover {
+  border: 6px solid #D82148;
+  transform: scale(1.1);
+}
+main .jump-to-CV:hover svg, main .jump-to-CV:hover p {
+  color: #D82148;
+  fill: #D82148;
 }
 
 footer {
@@ -605,6 +617,14 @@ footer a:hover svg, footer span:hover svg {
     color: #6EBF8B;
     text-shadow: 1px 1px 7px #151D3B;
     transform: scale(1);
+  }
+}
+@keyframes jump-to-cv-animation {
+  0% {
+    top: 77vh;
+  }
+  50% {
+    top: 79vh;
   }
 }
 

@@ -423,17 +423,22 @@ main{
     justify-content: center;
 
     position: fixed;
-    bottom: 80px;
+    top: 77vh;
     right: 40px;
 
     background-color: $main-color;
     border: 6px solid $other-color;
     border-radius: 50%;
+    box-shadow:  8px 8px 10px #00000080;
 
     width: 120px;
     height: 120px;
 
     z-index: 100;
+    cursor: pointer;
+
+    transition: .3s;
+    animation: jump-to-cv-animation 1s ease infinite;
 
     svg {
         width: 40%;
@@ -445,6 +450,16 @@ main{
         color: $other-color;
         font-size: 0.7rem;
         font-weight: 600;
+    }
+
+    &:hover {
+        border: 6px solid $secondary-color;
+        transform: scale(1.1);
+
+        svg, p {
+            color: $secondary-color;
+            fill: $secondary-color;
+        }
     }
   }
 }
@@ -779,4 +794,14 @@ footer{
     text-shadow: 1px 1px 7px $main-color;
     transform: scale(1);
   }
+}
+
+@keyframes jump-to-cv-animation {
+    0% {
+        top: 77vh;
+    }
+
+    50% {
+        top: 79vh;
+    }
 }
