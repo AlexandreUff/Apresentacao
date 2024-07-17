@@ -349,7 +349,7 @@ footer svg {
   cursor: pointer;
   transition: 0.3s;
 }
-footer a {
+footer a, footer span {
   color: #6EBF8B;
 }
 footer a:hover svg, footer span:hover svg {

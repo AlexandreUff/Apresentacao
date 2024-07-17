@@ -445,12 +445,12 @@ footer{
     transition: .3s;
   }
 
-  a{
+  a, span{
     color: $base-color;
-  }
 
-  a:hover svg, span:hover svg {
-    color: $secondary-color;
+    &:hover svg{
+        color: $secondary-color;
+    }
   }
 
 }
