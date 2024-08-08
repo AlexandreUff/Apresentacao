@@ -24,14 +24,14 @@ export default function Main(){
                 <br />
                 <p className="devDesc">
                     Sou Alexandre Magno, tenho {ClientYear("1993/11/16")} anos e sou formado em Tecnologia da Computação pela
-                    Universidade Federal Fluminense (UFF) com mais de quatro anos de experiência como
+                    Universidade Federal Fluminense (UFF) com mais de cinco anos de experiência como
                     desenvolvedor de sistemas.
 
                     Tenho um portfólio bem diversificado com projetos que vão desde simples Landing Page até
-                    sistemas mais sofisticados como games em que são construídos de forma diversificada com
+                    sistemas mais sofisticados como games. Projetos esses que são construídos de forma diversificada com
                     relação às tecnologias de meu conhecimento visando sempre respeitar a responsividade,
                     a semântica, as regras de SEO, as boas práticas, a acessibilidade, o desempenho e entre
-                    outros requisitos mínimos funcionais e necessários de uma página e/ou sistema.
+                    outros requisitos mínimos funcionais e necessários de uma aplicação.
 
                     Logo abaixo, segue meu portfólio que também está disponível em minha conta no GitHub.
                 </p>
