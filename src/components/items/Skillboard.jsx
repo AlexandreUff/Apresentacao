@@ -1,4 +1,4 @@
-import { ICOCyp, ICOEC2, ICOGit, ICOJST, ICORN, ICOSQL, ICOTSC, IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoMUI, IcoNJS, IcoNST, IcoNx, IcoRc, IcoSIO, IcoSS } from "./Icones";
+import { ICOCyp, ICOEC2, ICOGit, ICOJST, ICORN, ICOSQL, ICOTSC, IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoMUI, IcoNJS, IcoNST, IcoNx, IcoRc, IcoSIO, IcoSS, IcoVUE } from "./Icones";
 import Skill from "./Skill";
 
 export default function Skillboard(){
@@ -49,6 +49,7 @@ export default function Skillboard(){
                         <Skill name={"skill-ico-bs"} title={"Bootstrap"} icon={<IcoBS/>}  />
                         <Skill name={"skill-ico-rc"} title={"React.Js"} icon={<IcoRc/>}  />
                         <Skill name={"skill-ico-rn"} title={"React Native"} icon={<ICORN/>}  />
+                        <Skill name={"skill-ico-vue"} title={"Vue.Js"} icon={<IcoVUE/>}  />
                         <Skill name={"skill-ico-nx"} title={"Next.Js"} icon={<IcoNx/>}  />
                         <Skill name={"skill-ico-ss"} title={"SASS/SCSS"} icon={<IcoSS/>}  />
                         <Skill name={"skill-ico-mui"} title={"Material UI"} icon={<IcoMUI />} />
