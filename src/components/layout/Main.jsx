@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ICOTSC, IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, IcoNx, IcoRc, IcoSIO, IcoSS } from "../items/Icones";
+import { ICOTSC, IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, IcoNx, IcoRc, IcoSIO, IcoSS, IcoVUE } from "../items/Icones";
 import Projeto from "../items/Projeto";
 import ClientYear from "../../Utils/ClientYear";
 import Skillboard from "../items/Skillboard";
@@ -52,7 +52,16 @@ export default function Main(){
                 </div>
             </div> */}
 
-            <Projeto nome="Curso de Latim" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<ICOTSC />,<IcoNx />]} img="p9" link="https://www.cursodelatim.com.br" /* repos="https://github.com/AlexandreUff/TheKardz-fe" */>
+            <Projeto nome="Country Finder" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoVUE/>,<ICOTSC />]} img="p10" link="https://my-country-finder.vercel.app/"  repos="https://github.com/AlexandreUff/Harpia-Desafo">
+            Esse é meu primeiro projeto usando o framework VueJs. Trata-se de uma aplicação onde você faz busca por um país e ela retorna o seu posicionamento
+            geográfico no mapa com um marcador e algumas informações como nome, capital, moeda, idioma(s), continente e a representação gráfica da bandeira
+            ao ser clicado nesse marcador. Você também pode adicionar marcadores prórpios ao clicar em qualquer ponto do mapa e, ao clicar neles, obter
+            a latitude e a longitude do mesmo. Para a renderização do mapa, foi feita uma integração com a API do Google Maps através do Google Cloud e as
+            informações dos países vêm de outra API específica para informações de países: a REST Countries. E só para dar uma diferenciada, coloquei para esse
+            projeto rodar com o Docker Compose.
+            </Projeto>
+
+            <Projeto nome="Curso de Latim" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<ICOTSC />,<IcoNx />]} img="p9" link="https://www.cursodelatim.com.br">
             Meu primeiro trabalho freelancer. Esse, diferentemente dos trabalhos postados aqui anteriormente, não
             é meramente um portfólio, mas sim um trabalho oficial que fiz ao meu irmão que é professor de latim.
             Trata-se de uma landing page para divulgação de seu curso online. É também meu segundo trabalho usando
