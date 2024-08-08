@@ -53,7 +53,7 @@ export default function Main(){
             </div> */}
 
             <Projeto nome="Country Finder" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoVUE/>,<ICOTSC />]} img="p10" link="https://my-country-finder.vercel.app/"  repos="https://github.com/AlexandreUff/Harpia-Desafo">
-            Esse é meu primeiro projeto usando o framework VueJs. Trata-se de uma aplicação onde você faz busca por um país e ela retorna o seu posicionamento
+            Esse é meu primeiro projeto usando o framework VueJs. Trata-se de uma aplicação onde você faz busca por um país (em inglês) e ela retorna o seu posicionamento
             geográfico no mapa com um marcador e algumas informações como nome, capital, moeda, idioma(s), continente e a representação gráfica da bandeira
             ao ser clicado nesse marcador. Você também pode adicionar marcadores prórpios ao clicar em qualquer ponto do mapa e, ao clicar neles, obter
             a latitude e a longitude do mesmo. Para a renderização do mapa, foi feita uma integração com a API do Google Maps através do Google Cloud e as
