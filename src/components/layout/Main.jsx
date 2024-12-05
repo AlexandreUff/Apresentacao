@@ -19,23 +19,19 @@ export default function Main(){
             <JumpToCV click={() => { setOpenModal(true) }} />
             <div className="card-show">
                 <div>
-                <p><b>Olá!</b></p>
-                <p><b>Seja bem-vindo(a) à minha página de apresentação de projetos.</b></p>
+                <p><b>Hi!</b></p>
+                <p><b>Welcome to my portfolio page!</b></p>
                 <br />
                 <p className="devDesc">
-                    Sou Alexandre Magno, tenho {ClientYear("1993/11/16")} anos e sou formado em Tecnologia da Computação pela
-                    Universidade Federal Fluminense (UFF) com mais de cinco anos de experiência como
-                    desenvolvedor de sistemas.
+                    I am Alexandre Magno, and I graduated in Information Technology from Universidade Federal Fluminense (UFF) in Brazil with more than
+                    five years of experience as a software developer.
+                    I have a diversified portfolio with simple projects such as landing pages and larger projects like a game. These projects are built
+                    using a variety of technologies I know always aiming to maintain the responsiveness, semantics, SEO rules, good development
+                    practices, accessibility, performance and others minimal functional requirements and necessary for a good application.
 
-                    Tenho um portfólio bem diversificado com projetos que vão desde simples Landing Page até
-                    sistemas mais sofisticados como games. Projetos esses que são construídos de forma diversificada com
-                    relação às tecnologias de meu conhecimento visando sempre respeitar a responsividade,
-                    a semântica, as regras de SEO, as boas práticas, a acessibilidade, o desempenho e entre
-                    outros requisitos mínimos funcionais e necessários de uma aplicação.
-
-                    Logo abaixo, segue meu portfólio que também está disponível em minha conta no GitHub.
+                    Below, you can find my projects that are available in my GitHub account.
                 </p>
-                <p className="devDesc">Também está disponível no final desta página um link para meu LinkedIn e também um para meu currículo com mais detalhes.</p>
+                <p className="devDesc">At the end of this page, you will find a link for my LinkedIn profile and another to my resume in PDF format with more details and for on reach me.</p>
                 </div>
             </div>
 

@@ -47,18 +47,18 @@ export default function Projeto(props){
                 {props.children}
             </p>
             <p className="link">
-                <strong>Link para acessar o projeto: <br />
-                    <a href={props.link} title={`Link para acessar o ${props.nome}.`}>{props.link}</a>
+                <strong>Link to access this project: <br />
+                    <a href={props.link} title={`Link to access ${props.nome} project.`}>{props.link}</a>
                 </strong>
             </p>
             {
                 props.hasConsoleDatas && (
-                    <p className="obs"><small>Obs: No Console do Navegador são exibidas informações mais detalhadas.</small></p>
+                    <p className="obs"><small>Obs: The browser console shows more informations with details.</small></p>
                 )
             }
         <hr />
             <div className="tecnologias">
-                <p>Tecnologias usadas neste projeto:</p>
+                <p>Technologies used in this project:</p>
                 <div>
                     {props.techs.map(tech => {
                         return (
@@ -72,12 +72,12 @@ export default function Projeto(props){
         <hr />
             <div className="github" >
                 {props.repos ? (
-                    <a href={props.repos} target="blank" title={`Clique aqui para acessar o repositório de ${props.nome}.`} >
-                        <IcoGHBs/><small>Clique aqui para acessar o repositório.</small>
+                    <a href={props.repos} target="blank" title={`Click here to access ${props.nome} repository.`} >
+                        <IcoGHBs/><small>Click here to access the repository.</small>
                     </a>
                 ) : (
-                    <div title={`O repositório de ${props.nome} não é público.`} >
-                        <IcoLCK/><small>Este repositório é privado.</small>
+                    <div title={`The repository of ${props.nome} is not public.`} >
+                        <IcoLCK/><small>This repository is private.</small>
                     </div>
                 )}
             </div>
