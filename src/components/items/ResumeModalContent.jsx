@@ -26,7 +26,7 @@ export default function ResumeModalContent(){
                             }
                         }
                     >
-                        Escolha o idioma do currículo
+                        Choose the resume language
                     </div>
                     <div
                         style={

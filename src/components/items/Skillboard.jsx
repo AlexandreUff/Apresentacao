@@ -32,12 +32,12 @@ export default function Skillboard(){
             <div className="my-skills">
                 <div className="title-content">
                     <div className="title">
-                        MINHAS SKILLS
+                        MY SKILLS
                     </div>
                 </div>
 
-                <div onClick={() => moveSkillControll(-50)} title="Voltar" className="click-btn" id="btn-scroll-left">{"<<"}</div>
-                <div onClick={() => moveSkillControll(50)} title="Avançar" className="click-btn" id="btn-scroll-right">{">>"}</div>
+                <div onClick={() => moveSkillControll(-50)} title="Back" className="click-btn" id="btn-scroll-left">{"<<"}</div>
+                <div onClick={() => moveSkillControll(50)} title="Next" className="click-btn" id="btn-scroll-right">{">>"}</div>
 
                 <div className="skill-board">
                         <Skill name={"skill-ico-html"} title={"HTML"} icon={<IcoHTML/>}  />
