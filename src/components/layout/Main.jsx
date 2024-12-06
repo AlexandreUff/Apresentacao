@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ICOTSC, IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, IcoNx, IcoRc, IcoSIO, IcoSS, IcoVUE } from "../items/Icones";
 import Projeto from "../items/Projeto";
-import ClientYear from "../../Utils/ClientYear";
+// import ClientYear from "../../Utils/ClientYear"; Talvez volte
 import Skillboard from "../items/Skillboard";
 import JumpToCV from "../items/JumpToCurriculum";
 import Modal from "../items/Modal";
