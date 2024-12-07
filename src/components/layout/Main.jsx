@@ -49,76 +49,73 @@ export default function Main(){
             </div> */}
 
             <Projeto nome="Country Finder" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoVUE/>,<ICOTSC />]} img="p10" link="https://my-country-finder.vercel.app/"  repos="https://github.com/AlexandreUff/Harpia-Desafo">
-            Esse é meu primeiro projeto usando o framework VueJs. Trata-se de uma aplicação onde você faz busca por um país (em inglês) e ela retorna o seu posicionamento
-            geográfico no mapa com um marcador e algumas informações como nome, capital, moeda, idioma(s), continente e a representação gráfica da bandeira
-            ao ser clicado nesse marcador. Você também pode adicionar marcadores prórpios ao clicar em qualquer ponto do mapa e, ao clicar neles, obter
-            a latitude e a longitude do mesmo. Para a renderização do mapa, foi feita uma integração com a API do Google Maps através do Google Cloud e as
-            informações dos países vêm de outra API específica para informações de países: a REST Countries. E só para dar uma diferenciada, coloquei para esse
-            projeto rodar com o Docker Compose.
+            This is my first project using Vue.js framework. It is an application where you can search for
+            a country (typing in English) and that returns its geography position on the map with a marker
+            and some information like name, capital, currency, languages, continent and the graphic flag
+            representation when it is being clicked on the marker.You can add your own markers by clicking
+            on any point on the map and, when you click on them, get the latitude and longitude of that.
+            For the map rendering, an integration was created with the Google Maps API through the Google
+            Cloud and the countries information come from another specific API for country data: REST
+            Countries. And to add a unique touch, I set it up to run with Docker Compose.
             </Projeto>
 
             <Projeto nome="Curso de Latim" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<ICOTSC />,<IcoNx />]} img="p9" link="https://www.cursodelatim.com.br">
-            Meu primeiro trabalho freelancer. Esse, diferentemente dos trabalhos postados aqui anteriormente, não
-            é meramente um portfólio, mas sim um trabalho oficial que fiz ao meu irmão que é professor de latim.
-            Trata-se de uma landing page para divulgação de seu curso online. É também meu segundo trabalho usando
-            o Next.Js e  primeiro usando o Typescript. E nele há uma animação logo na entrada do site que deixou
-            com um aspecto muito bacana e profissional que vale muito a pena conferir.
-            Sem dúvidas um dos melhores layouts (se não o melhor) que já fiz.
+            This is my first job as a freelancer. This, unlike the other works posted here, isn't merely a
+            portfolio, but a job that I did for my brother who is a Latin teacher. It is about a landing page
+            to promote his online course. It is also my second project using Next.js and my first using 
+            Typescript. In it there is an animation when the page loads that giving it a bealtiful and
+            professional aspect that is really worth checking out. There is no doubt this is one of the bests
+            layouts (if not the best) I have ever created.
             </Projeto>
 
             <Projeto nome="The Kardz" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<IcoSS/>,<IcoNJS/>,<IcoMDB/>,<IcoDCK/>,<IcoSIO/>,<IcoAWS/>]} img="p8" link="http://54.207.135.42:3000/" repos="https://github.com/AlexandreUff/TheKardz-fe">
-            Finalmente, meu primeiro projeto Full-Stack (Front-End e Back-End)! E não apenas isso, trata-se
-            de um dos projetos mais criativos e originais que já criei embarcado com uma série de tecnologias.
-            Trata-se de um jogo online com cartas similar a um jokenpô que funciona em qualquer dispositivo,
-            mobile ou desktop, pelo navegador. O jogo permite que você crie uma sala para jogar com os seus
-            amigos ou entrar em uma e disponibiliza, também, um chat para que vocês comuniquem entre si.
+            Finally, my first full-stack project (frontend and backend)! And not only that, it's also one of
+            my most creative projects and original I have ever been created built with a variet of
+            technologies. It is about an online game with cards that is similar to rock-paper-scissors that
+            works in any device, mobile or desktop, through browser. The game allows you to create a room to
+            play with your friends or join one and it also provides a chat for you to communicate with each
+            other.
             </Projeto>
 
             <Projeto nome="My ToDo List" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<IcoSS/>]} img="p7" link="https://this-is-my-todolist.netlify.app/" repos="https://github.com/AlexandreUff/MyToDoList">
-            Eis um dos projetos que ficou com um dos layouts mais simples, bonitos e agradáveis que fiz.
-            O clássico ToDo List, mas de um jeito bem diferente! Este explora uma maneira diferenciada
-            de organização que é um tanto incomum com relação à maioria dos ToDo Lists que existem por aí.
-            Aqui você cria um conjunto de listas onde você separa cada tarefa por contexto de modo
-            facilitado para sua organização e pode marcar suas tarefas como concluídas e, se preferir,
-            editá-las e/ou apagá-las. Seus dados e informações ficam gravadas na SessionStorage
-            do dispositivo.
+            Here is one of projects that features the more simplest, most beautiful and most pleasant layouts
+            I've ever created. The classic ToDo List, but with a twist! This explores a unique approach to
+            organization that sets it aprt from most other To-Do Lists that exist. Here, you can create a set
+            of lists that separates each task by context, making it easy to organize them and you can mark
+            your tasks as completed and, if you wish, edit them and/or delete them. Your data and infomation
+            are storaged in the SessionStorage of your device.
             </Projeto>
 
             <Projeto nome="Ultra Eletro" hasConsoleDatas techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<IcoNx/>]} img="p6" link="https://ultra-eletro.vercel.app/" repos="https://github.com/AlexandreUff/UltraEletro">
-            A Hiper Eletro agora tem um concorrente! Meu primeiro projeto em NextJs e 
-            também, agora, com uma pequena API. Trata-se de uma página de simulação de um 
-            e-commerce onde, dessa vez, você pode clicar nos produtos e ver os detalhes e 
-            outras informações adicionais. Os 'cards' que exibem os produtos são rederizados 
-            com base em dados obtidos a partir de uma requisição ao back-end e, quando o 'card' 
-            é clicado, os mesmos dados são transferidos pela barra de endereços usando o 
-            useRouter e depois renderizados na página de compra.   
+            The Hiper Eletro now has competitor. My first project using Next.js and, now, with a small API as
+            well. It's a page simulating an e-commerce site where you click on the products and see their details
+            and additional information. The "cards" that show the products are rendered based in data obtained
+            from a back-end request and when the card is clicked, the same data is tranferred through the address
+            bar of your browser using the useRouter and then they are rendering on purchase page.
             </Projeto>
 
             <Projeto nome="SummerHouse Hotel" hasConsoleDatas techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoBS/>,<IcoSS/>]} img="p5" link="https://summerhousehotel.netlify.app/" repos="https://github.com/AlexandreUff/SummerHouse">
-            Simulação de uma página de login de um hotel com a opção de registrar-se. A página 
-            utiliza os recursos de layout do Bootstrap para uma melhor organização e, também, 
-            na página de registro, um formulário organizado em um 'slider' que possui um 
-            bloqueio um pouco mais rígido que o da Landing Page do Master Churras acima, 
-            bloqueando o registro para menores de 18 anos até a data presente do acesso e, 
-            também, senhas inválidas.
+            It is a simulation of a hotal login page with the option to register. This page uses layout components
+            from Bootstrap for better organization and, on the registration page, there is a form organized in a
+            slider that has a strickter block than the one on Master Churras below, preventing registration for under
+            18 years old as of current date of access and for invalid passwords as well.
             </Projeto>
 
             <Projeto nome="Jornal Jornal" hasConsoleDatas techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>]} img="p4" link="https://jornaljornal.netlify.app/" repos="https://github.com/AlexandreUff/JornalJornal">
-            Aqui, meu primeiro projeto em React. Uma simulação de uma página de notícias com uma 
-            pegada de humor com base em memes e outras coisas semelhantes da cultura pop. O 
-            layout, as notícias, os botões, os links... todos são separados dentro do projeto 
-            como componentes. No repositório, há uma pasta que contém a versão de desenvolvimento 
-            onde é possível ver com mais clareza essa 'arquitetura componentizada' de projeto.
+            Here is my first project using React.js. It's a simulation of a news page with a humorous twist based
+            on Brazillian memes and other similar culture references. The layout, the news, the buttons and the
+            links...  are all separated within the project as components. In the repository, there is a folder
+            that contains the development version where you can see this "componentized archtecture" of the project
+            more clearly.
             </Projeto>
 
             <Projeto nome="Hiper Eletro" hasConsoleDatas techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoBS/>]} img="p3" link="https://hipereletro.netlify.app/" repos="https://github.com/AlexandreUff/HiperEletro">
-            Um dos projetos que mais gostei de fazer. Trata-se de uma simulação de página de 
-            e-commerce feita com Bootstrap e que possui a funcionalidade de adicionar um ou mais 
-            produtos ao carrinho e, se quiser, removê-lo(s). Nesta página, os produtos não estão 
-            presentes inicialmente na DOM, eles são renderizados a partir da leitura de um 
-            array (Javascript) e jogados, então, na tela em cards. O fato dos produtos estarem 
-            em um array e fora da DOM se dá para que torne mais fácil o envio das informações 
-            dos produtos selecionados ao back-end sem precisar puxar qualquer dado diretamente da DOM.
+            This is one of my projects I liked creating. It's a simulation of an e-commerce page created with
+            Bootstrap that has a functionality to add one or more products in the cart and, if you wish, remove them.
+            On this page, the products that don't initially exist in the DOM, they are rendered from array reading
+            (Javascript) and then displayed on the screen as cards. The reason to the products are in an array and
+            not in the DOM is to make it easier to send the selected data product to the back-end without to pull
+            any data directly from the DOM.
             </Projeto>
 
             <Projeto nome="Master Churras" hasConsoleDatas techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>]} img="p2" link="https://masterchurras-dicas.netlify.app/" repos="https://github.com/AlexandreUff/MasterChurras">
