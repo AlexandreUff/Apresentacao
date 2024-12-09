@@ -119,18 +119,15 @@ export default function Main(){
             </Projeto>
 
             <Projeto nome="Master Churras" hasConsoleDatas techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>]} img="p2" link="https://masterchurras-dicas.netlify.app/" repos="https://github.com/AlexandreUff/MasterChurras">
-            Aqui temos uma simulação de uma Landing Page de cadastro de e-mail que oferece, 
-            semanalmente, um conteúdo ao usuário. A página possui apenas um singelo bloqueio 
-            para impedir que o usuário dê 'submit' com os campos vazios exibindo uma mensagem 
-            de alerta no(s) respectivos campos não preenchido(s) e uma confirmação de envio 
-            caso esteja tudo preenchido corretamente.
+            Here is a simulation of landing page for e-mail registion that offers weekly content for the user. The
+            page has a simple restriction to prevent users from submitting with empty fields showing an alert
+            message under respective empty fields and a confirmation message if the form is filled out correctly.
             </Projeto>
 
             <Projeto nome="Jogo da Velha" hasConsoleDatas techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>]} img="p1" link="https://o-jogo-da-velha.netlify.app/" repos="https://github.com/AlexandreUff/JogoDaVelha">
-            O bom e velho Jogo da Velha agora no navegador. Trata-se de uma aplicação simples 
-            feita com as tecnologias basilares do front-end onde há opção de escolha do(s) 
-            usuário(s) pelo ícone a ser usado para iniciar o jogo (X ou O) com pequenos 
-            efeitos de animação para cada ação dentro do jogo."
+            The good and old Tic Tac Toe (known as "Jogo da Velha" in Brazilian portuguese) now in your browser.
+            It's about a simple application made with basic front-end technologies where users can choose an icon
+            starts the game as "X" or "O" with small animation effects for each interaction in the game.
             </Projeto>           
 
         </main>
