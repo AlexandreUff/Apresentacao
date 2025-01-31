@@ -68,7 +68,7 @@ export default function Main(){
             layouts (if not the best) I have ever created.
             </Projeto>
 
-            <Projeto nome="The Kardz" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<IcoSS/>,<IcoNJS/>,<IcoMDB/>,<IcoDCK/>,<IcoSIO/>,<IcoAWS/>]} img="p8" link="http://54.207.135.42:3000/" repos="https://github.com/AlexandreUff/TheKardz-fe">
+            <Projeto nome="The Kardz" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoRc/>,<IcoSS/>,<IcoNJS/>,<IcoMDB/>,<IcoDCK/>,<IcoSIO/>,<IcoAWS/>]} img="p8" link="https://thekardz.netlify.app/" repos="https://github.com/AlexandreUff/TheKardz-fe">
             Finally, my first full-stack project (frontend and backend)! And not only that, it's also one of
             my most creative projects and original I have ever been created built with a variet of
             technologies. It is about an online game with cards that is similar to rock-paper-scissors that
