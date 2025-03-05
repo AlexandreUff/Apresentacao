@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ICOTSC, IcoAWS, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, IcoNx, IcoRc, IcoSIO, IcoSS, IcoVUE } from "../items/Icones";
+import { ICOTSC, IcoAWS, IcoAngular, IcoBS, IcoCSS, IcoDCK, IcoHTML, IcoJS, IcoMDB, IcoNJS, IcoNx, IcoRc, IcoSIO, IcoSS, IcoVUE } from "../items/Icones";
 import Projeto from "../items/Projeto";
 // import ClientYear from "../../Utils/ClientYear"; Talvez volte
 import Skillboard from "../items/Skillboard";
@@ -47,6 +47,14 @@ export default function Main(){
                     
                 </div>
             </div> */}
+
+            <Projeto nome="Diet Plan" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoVUE/>,<IcoAngular />]} img="p11" link="https://mydietplan.netlify.app/"  repos="https://github.com/AlexandreUff/Diet-Plan-Angular">
+            Do you know how much calories you burn per day? Do you wanna know how much macronutrients you need for your kind of training?
+            Well, this is my first Angular project focused on show you the calories you burn per day and the macronutrients for your diet
+            and training with accessible and easy usability. This is a project that I had been wanted to create for a while. And as I
+            would to lern more about Angular, I decided to put the two things together with a bealtiful aspect and without libs or external
+            resources to create the carousel or animations. I did it using native CSS keyframes resources.
+            </Projeto>
 
             <Projeto nome="Country Finder" techs={[<IcoHTML/>,<IcoCSS/>,<IcoJS/>,<IcoVUE/>,<ICOTSC />]} img="p10" link="https://my-country-finder.vercel.app/"  repos="https://github.com/AlexandreUff/Harpia-Desafo">
             This is my first project using Vue.js framework. It is an application where you can search for
